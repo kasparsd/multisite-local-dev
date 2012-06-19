@@ -16,7 +16,7 @@ Created by Kaspars Dambis [konstruktors.com](http://konstruktors.com/)
 *	**Network home URL (blog_id 1):** `http://localhost/example-dev/public/`
 *	**Singe site URLs (blog_id 2):** `http://localhost/example-dev/public/extranet/`
 
-You need to put this into your dev `wp-config.php`:
+You need to put this into your dev `wp-config.php` right below the Multisite related constants:
 
 	// (int) blog_id => (string) blog_path
 
