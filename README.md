@@ -1,20 +1,22 @@
-Created by Kaspars Dambis
-[konstruktors.com](http://konstruktors.com/)
+Created by Kaspars Dambis [konstruktors.com](http://konstruktors.com/)
 
-Please note that this works only with Networks where sites are in subdomains. However, it should be easy to modify this script to support sites in subdomains.
+## Important:
+
+* 	This is a MU plugin, so you should put it in `/wp-content/mu-plugins/multisite-local-dev.php`
+* 	It works only with Networks where sites are in subdomains. However, it should be easy to modify this script to support sites in subdomains.
 
 
-## Network Setup (Production):
+### Network Setup (Production):
 
-*	*Network home URL (blog_id 1):* http://example.com/
-*	*Singe site URLs (blog_id 2):* http://example.com/extranet/ and http://example.com/intranet/
+*	**Network home URL (blog_id 1):** `http://example.com/`
+*	**Singe site URLs (blog_id 2):** `http://example.com/extranet/`
 
-## Network Setup (Development):
+### Network Setup (Development):
 
-*	*Network home URL (blog_id 1):* http://localhost/example-dev/public/
-*	*Singe site URLs (blog_id 2):* http://localhost/example-dev/public/extranet/
+*	**Network home URL (blog_id 1):** `http://localhost/example-dev/public/`
+*	**Singe site URLs (blog_id 2):** `http://localhost/example-dev/public/extranet/`
 
-You need to put this into your dev wp-config.php:
+You need to put this into your dev `wp-config.php`:
 
 	// (int) blog_id => (string) blog_path
 
