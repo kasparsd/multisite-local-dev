@@ -26,7 +26,7 @@ You need to put this into your dev `wp-config.php` right below the Multisite rel
 		3 => 'intranet'
 	);
 
-	define('WP_CONTENT_URL', 'http://localhost/site-folder/public/wp-content');
+	define('WP_CONTENT_URL', 'http://localhost/example-dev/public/wp-content');
 
 	$current_site = new stdClass;
 	$current_site->id = 1;
