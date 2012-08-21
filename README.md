@@ -3,18 +3,22 @@ Created by Kaspars Dambis [konstruktors.com](http://konstruktors.com/)
 ## Important:
 
 * 	This is a MU plugin, so you should put it in `/wp-content/mu-plugins/multisite-local-dev.php`
-* 	It works only with Networks where sites are in subdomains. However, it should be easy to modify this script to support sites in subdomains.
+* 	It works only with Networks where sites are in sub-folders. However, it should be easy to modify this script to support sites in subdomains.
+*	Blog post: http://konstruktors.com/blog/wordpress/3857-develop-wordpress-multisite-locally-using-production-database/
 
 
 ### Network Setup (Production):
 
 *	**Network home URL (blog_id 1):** `http://example.com/`
 *	**Singe site URLs (blog_id 2):** `http://example.com/extranet/`
+*	**Singe site URLs (blog_id 3):** `http://example.com/intranet/`
 
 ### Network Setup (Development):
 
 *	**Network home URL (blog_id 1):** `http://localhost/example-dev/public/`
 *	**Singe site URLs (blog_id 2):** `http://localhost/example-dev/public/extranet/`
+*	**Singe site URLs (blog_id 3):** `http://localhost/example-dev/public/intranet/`
+
 
 You need to put this into your dev `wp-config.php` right below the Multisite related constants:
 
