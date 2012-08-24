@@ -2,9 +2,11 @@ Created by Kaspars Dambis [konstruktors.com](http://konstruktors.com/)
 
 ## Important:
 
+* 	This plugin is intended for a local development environment.
+* 	It is much easier to use Apache's virtual hosts setup and modify your hosts file locally instead of using this plugin.
 * 	This is a MU plugin, so you should put it in `/wp-content/mu-plugins/multisite-local-dev.php`
 * 	It works only with Networks where sites are in sub-folders. However, it should be easy to modify this script to support sites in subdomains.
-*	Blog post: http://konstruktors.com/blog/wordpress/3857-develop-wordpress-multisite-locally-using-production-database/
+* 	Blog post: http://konstruktors.com/blog/wordpress/3857-develop-wordpress-multisite-locally-using-production-database/
 
 
 ### Network Setup (Production):
